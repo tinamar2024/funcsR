@@ -42,8 +42,13 @@
 # git branch -d scratch
 
 # push the first modification
-# git checkout -b scratch
-#
+# git checkout -b scratch    #create a local branch
+# tma@Mac funcsR % git pull -r origin master
+# git add .
+# git commit -m "Address reviewer feedback: changed X"
+# tma@Mac funcsR % git push origin scratch     # push the local branch to remote
+
+
 
 
 
