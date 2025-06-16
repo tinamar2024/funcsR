@@ -27,3 +27,23 @@
 # In R studio
 # > gitcreds::gitcreds_set()
 # > usethis::use_github()
+
+# tma@Mac funcsR % git status
+# tma@Mac funcsR % git pull -r origin master
+
+# Recommended Git workflow by GPT:
+# git checkout -b scratch
+# git pull --rebase origin master
+# # edit, commit, etc.
+#
+# git checkout master
+# git merge scratch
+# git push origin master
+# git branch -d scratch
+
+# push the first modification
+# git checkout -b scratch
+#
+
+
+
